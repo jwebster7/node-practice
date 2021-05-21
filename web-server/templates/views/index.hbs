@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="icon" href="/img/weather.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form>
+            <input title="city" type="text" placeholder="City" required>
+            <input title="state" type="text" placeholder="State" required>
+            <button>Search</button>
+        </form>
+
+        <p id="message-one"></p>
+        <p id="message-two"></p>
+    </div>
+    {{>footer}}
+    {{!-- the client script needs to run after all elements have been mounted to the DOM --}}
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+A repository to house some simple node projects for getting more acquainted with Nodejs.
